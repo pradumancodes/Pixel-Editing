@@ -1,0 +1,72 @@
+/* styles.css */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(90deg, #ff0000, #ff00b3, #ff6200)
+}
+
+
+.navbar {
+    background-color: #4CAF50;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: rgb(255, 0, 242);
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+}
+
+.header {
+    background-image: linear-gradient(to right, #4CAF50, #2196F3);
+    color: white;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    
+}
+
+.header p {
+    font-size: 1.5rem;
+}
+
+.card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    background-color: aqua;
+}
+
+.btn-primary {
+    background-color: #4CAF50;
+    border-color: #4CAF50;
+}
+
+.btn-primary:hover {
+    background-color: #45a049;
+    border-color: #45a049;
+}
+
+.btn-outline-success {
+    color: #4CAF50;
+    border-color: #ff0000;
+}
+
+.btn-outline-success:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.animate__animated {
+    animation-duration: 1s;
+}
